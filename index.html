@@ -72,7 +72,7 @@
       // Carga del modelo de TensorFlow
       (async() => {
         console.log("Cargando modelo...");
-        modelo = await tf.loadLayersModel("model.json");
+        modelo = await tf.loadLayersModel("./models/model.json");
         console.log("Modelo cargado");
       })();
 
